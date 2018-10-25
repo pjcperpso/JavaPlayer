@@ -1,0 +1,11 @@
+JavaEE简单分为两种corejava和javaweb
+1.corejava是我们的java基础，最早阶段的Java语言学习
+2.javaweb是更高阶段的学习，其核心是jsp和servlet
+javaweb主要有三类 web服务器/web容器/javaee应用服务器
+      1.web服务器如我们常见的Apache
+      2.web容器如我们常见的servlet容器，jsp和servlet要放到容器中才能运行
+      3.javaee应用服务器比较大型，也称为重量级服务器，我们个人做web开发一般用不到，它是把所有的都整合在了一起，有ejb的容器、
+同时也有servlet等各式各样的容器。我们开发一般用tomcat就可以，需要什么直接导第三方jar包。
+      这里要特别说明tomcat不是web服务器,也就不是apache,web服务器只能处理静态资源像html，而我们的tomcat显然能处理动态资源，
+如jsp、servlet等，所以说tomcat是web服务器和servlet容器的结合，是一个轻量级的web应用服务器，简言之就是既有web服务器的功能也
+有web容器的功能。
